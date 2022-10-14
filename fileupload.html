@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload file</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #8BBCCC;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Upload the medical file</h1>
+
+    <label> Choose the File to upload: </label>
+    <input type="file" id="myFile" /> <br /><br />
+
+    <input type="submit" id="submitbtn" value="submit" />
+    <script>
+        document.getElementById("submitbtn").onclick = function () {
+            alert("File uploaded successfully");
+        };
+    </script>
+
+</body>
+
+</html>
